@@ -49,9 +49,11 @@ Returns a Garden item, and an up to date snapshot of the garden state
 
 `GET /gardens/{gardenId}/sensors/{type}`
 Returns a dump of all the sensor data for that particular type
+```
 {
     sensorData: Array[Sensor Data]
 }
+```
     
 
 ## Private endpoints
