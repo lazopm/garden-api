@@ -1,5 +1,5 @@
 # Garden API
-A simple AWS Serverless api for my automated garden.
+A simple AWS Serverless api for an automated garden.
 
 ## Install
 `yarn install`
