@@ -1,5 +1,5 @@
 # Garden API
-A simple api for my self sustainable garden
+A simple AWS Serverless api for my self sustainable garden.
 
 ## Install
 `yarn install`
