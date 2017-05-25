@@ -66,6 +66,7 @@ functions:
           path: garden
           method: post
           cors: true
+          private: true
   postSensorData: 
       handler: build/bundle.postSensorData
       events:
@@ -73,6 +74,7 @@ functions:
             path: garden/{gardenId}/sensor/{sensorType}
             method: post
             cors: true
+            private: true
 resources:
   Resources:
     GardenTable:
