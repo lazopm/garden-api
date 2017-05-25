@@ -2,7 +2,7 @@ export const get = (dynamoDB, event, context, callback) => {
      const params = {
         TableName: process.env.GARDEN_TABLE,
         Key: {
-            id: event.pathParameters.id,
+            garden: event.pathParameters.gardenId,
         },
     };
     // fetch garden from the database

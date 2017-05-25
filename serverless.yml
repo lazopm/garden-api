@@ -48,14 +48,14 @@ functions:
     handler: build/bundle.getGarden
     events:
       - http:
-          path: garden/{id}
+          path: garden/{gardenId}
           method: get
           cors: true
   getSensorData: 
       handler: build/bundle.getSensorData
       events:
         - http:
-            path: garden/{id}/sensor/{type}
+            path: garden/{gardenId}/sensor/{sensorType}
             method: get
             cors: true
   #private functions
@@ -70,7 +70,7 @@ functions:
       handler: build/bundle.postSensorData
       events:
         - http:
-            path: garden/{id}/sensor/{type}
+            path: garden/{gardenId}/sensor/{sensorType}
             method: post
             cors: true
 resources:
