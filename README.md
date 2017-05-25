@@ -12,7 +12,11 @@ A simple AWS Serverless api for my self sustainable garden.
 + yarn
 + serverless + aws credentials
 
-
+## Roadmap 
+- [x] Create/List/Get Gardens
+- [x] Post sensor data
+- [ ] Alerts
+- [ ] Auto watering scheduling
 
 ## Data Structures
 
