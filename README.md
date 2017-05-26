@@ -1,5 +1,6 @@
 # Garden API
 A simple AWS Serverless api for an automated garden.
+Uses Rollup for bundling and transpiling.
 
 ## Install
 `yarn install`
