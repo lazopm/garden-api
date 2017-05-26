@@ -26,6 +26,7 @@ A simple AWS Serverless api for an automated garden.
 + name: (string, required)
 + description: (string)
 + created: (integer, required) timestamp generated when created
++ snapshot: (Snapshot)
 
 ### Garden Snapshot (object)
 this is a snapshot of the state of the garden
