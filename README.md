@@ -15,6 +15,7 @@ A simple AWS Serverless api for an automated garden.
 ## Roadmap 
 - [x] Create/List/Get Gardens
 - [x] Post sensor data
+- [ ] Snapshot task
 - [ ] Alerts
 - [ ] Auto watering scheduling
 
