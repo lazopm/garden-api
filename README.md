@@ -32,8 +32,8 @@ A simple AWS Serverless api for an automated garden.
 this is a snapshot of the state of the garden
 + gardenId: (string, required)
 + ts: (integer, required)
-+ battery:  (integer, required)
-+ soilHumidity: (integer, required)  
++ battery:  (integer)
++ soilHumidity: (integer)  
 
 ### Sensor Data (object)
 + garden: (string, required) garden id hash
