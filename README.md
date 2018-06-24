@@ -2,26 +2,6 @@
 A simple AWS Serverless api for an automated garden.
 Uses Rollup for bundling and transpiling.
 
-## Install
-`yarn install`
-
-## Deploy
-`yarn deploy`
-
-### Requirements
-+ node
-+ yarn
-+ serverless + aws credentials
-
-## Roadmap 
-- [x] Create/List/Get Gardens
-- [x] Post sensor data
-- [ ] Snapshot task
-- [ ] Alerts
-- [ ] Auto watering scheduling
-
-## Data Structures
-
 ### Garden (object)
 + id: (string, required) unique hash to identify the garden
 + name: (string, required)
